@@ -707,7 +707,7 @@
   <!-- fetching portfolio data from projects.txt -->
   <script>
     function portfolioData() {
-      fetch('/projects')
+      fetch('./projects')
         .then(res => {
           console.log(res);
           return res.json()
