@@ -168,12 +168,10 @@
     items: 1
   });
 
-  
-  document.addEventListener("click", (e) => {
-    if (e.target.className == 'abcd') {
-      $(".portfolio-container").css("height", "auto");
-    }
-  })
+
+    // document.addEventListener("load", () => {
+    //   $(".portfolio-container").css("height", "auto");
+    // })
 
 
 })(jQuery);

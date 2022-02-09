@@ -709,7 +709,7 @@
     function portfolioData() {
       fetch('./projects')
         .then(res => {
-          console.log(res);
+          // console.log(res);
           return res.json()
         })
         .then(data => {
@@ -724,14 +724,17 @@
               <p> ${val.desc}
               </p>
               <div class="portfolio-links">
-                <a href="${val.github}" target= "_blank"><i class="bx bx-plus"></i></a>
-                <a href="${val.website}" target= "_blank"><i class="bx bx-link"></i></a>
+                <a href="${val.github}" target= "_blank"><img src="https://img.icons8.com/material-outlined/24/ffffff/github.png"/></a>
+                <a href="${val.website}" target= "_blank"><img src="https://img.icons8.com/material-outlined/24/ffffff/link--v1.png"/></a>
               </div>
             </div>
           </div>
         </div>`);
           })
 
+        })
+        .then(() => {
+          $(".portfolio-container").css("height", "auto");
         })
     }
   </script>
