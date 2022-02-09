@@ -703,11 +703,11 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
 
- 
+
   <!-- fetching portfolio data from projects.txt -->
   <script>
     function portfolioData() {
-      fetch('/projects.txt')
+      fetch('/projects.json')
         .then(res => res.json())
         .then(data => {
           console.log(data);
