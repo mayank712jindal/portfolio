@@ -707,10 +707,13 @@
   <!-- fetching portfolio data from projects.txt -->
   <script>
     function portfolioData() {
-      fetch('/projects.json')
-        .then(res => res.json())
+      fetch('/projects')
+        .then(res => {
+          console.log(res);
+          return res.json()
+        })
         .then(data => {
-          console.log(data);
+
           // var elements = "";
           data.map((val) => {
             $(".portfolio-container").append(`<div class="col-lg-4 col-md-6 portfolio-item filter-app">
