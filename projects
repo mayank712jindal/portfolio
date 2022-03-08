@@ -9,19 +9,19 @@
     },
     {
         "id" : "2",
-        "name": "Netflyx",
-        "desc": "",
-        "github": "https://github.com/mayank712jindal/netflyx",
-        "img": "netflyx.png",
-        "website": "https://mayank712jindal.github.io/netflyx/"
-    },
-    {
-        "id" : "3",
         "name": "AmyCare",
         "desc": "",
         "github": "https://github.com/anirudh8303/CodeStomp",
         "img": "amycare.png",
         "website": ""
+    },
+    {
+        "id" : "3",
+        "name": "Netflyx",
+        "desc": "",
+        "github": "https://github.com/mayank712jindal/netflyx",
+        "img": "netflyx.png",
+        "website": "https://mayank712jindal.github.io/netflyx/"
     },
     {
         "id" : "4",
